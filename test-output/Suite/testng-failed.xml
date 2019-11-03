@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="FUCKYOU25"/>
+  <parameter name="url" value="https://www.gmail.com"/>
+  <parameter name="username" value="prudhiviraju73@gmail.com"/>
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="practice.Parallel">
+        <methods>
+          <include name="parallellogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- practice.Parallel -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

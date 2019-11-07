@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.Xmlfile">
+      <class name="practice.TestNGGmail">
         <methods>
-          <include name="login"/>
+          <include name="leftsidedata"/>
+          <include name="extent"/>
+          <include name="AppsCount"/>
+          <include name="Url"/>
+          <include name="gettitle"/>
+          <include name="intialization"/>
+          <include name="logoverification"/>
+          <include name="Setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- practice.Xmlfile -->
+      </class> <!-- practice.TestNGGmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
